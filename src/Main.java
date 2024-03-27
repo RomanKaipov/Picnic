@@ -65,6 +65,7 @@ public class Main {
                 map.put(temp, 1);
             }
         }
+        fileReader.close();
         map.remove("");
         System.out.println(map);
     }
